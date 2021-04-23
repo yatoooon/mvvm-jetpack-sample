@@ -38,7 +38,7 @@ internal fun Project.configureAndroid(isAppModule: Boolean) {
             flavorDimensions("default")
             ndk {
                 // 设置支持的SO库架构
-                abiFilters.add("armeabi-v7a")  //'armeabi', 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+                abiFilters("armeabi-v7a")  //'armeabi', 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
             }
             javaCompileOptions {
                 annotationProcessorOptions {
@@ -58,13 +58,13 @@ internal fun Project.configureAndroid(isAppModule: Boolean) {
 
         if (isAppModule || isRunAlone) {
             extensions.getByType<BaseAppModuleExtension>().buildFeatures {
-                dataBinding = true
-                viewBinding = true
+                this.dataBinding = true
+                this.viewBinding = true
             }
         } else {
             extensions.getByType<LibraryExtension>().buildFeatures {
-                dataBinding = true
-                viewBinding = true
+                this.dataBinding = true
+                this.viewBinding = true
             }
         }
 
@@ -86,11 +86,11 @@ internal fun Project.configureAndroid(isAppModule: Boolean) {
 
         buildTypes {
             @Suppress("MISSING_DEPENDENCY_CLASS")
-            var signingConfig = SigningConfig("sample").apply {
-                setStoreFile(File("${project.rootDir}/buildSrc/sample.jks"))
-                setStorePassword("sample")
-                setKeyAlias("sample")
-                setKeyPassword("sample")
+            val signingConfig = SigningConfig("sample").apply {
+                storeFile = File("${project.rootDir}/buildSrc/sample.jks")
+                storePassword = "123456"
+                keyAlias = "sample"
+                keyPassword = "123456"
             }
             getByName("debug") {
                 isMinifyEnabled = false
