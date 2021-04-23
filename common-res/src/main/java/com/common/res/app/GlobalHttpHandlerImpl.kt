@@ -1,7 +1,7 @@
 package com.common.res.app
 
 import android.content.Context
-import com.common.arms.http.GlobalHttpHandler
+import com.common.core.http.GlobalHttpHandler
 import com.common.res.config.AppConfig
 import okhttp3.HttpUrl
 import okhttp3.Interceptor

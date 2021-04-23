@@ -1,6 +1,6 @@
 android {
     productFlavors {
-        sample_release {
+        sample {
             versionCode 1
             versionName "1.0.0"
             applicationId "com.common.sample"

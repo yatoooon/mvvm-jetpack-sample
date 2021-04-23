@@ -3,9 +3,9 @@ package com.common.login.app
 import android.app.Application.ActivityLifecycleCallbacks
 import android.content.Context
 import androidx.fragment.app.FragmentManager
-import com.common.arms.base.delegate.AppLifecycles
-import com.common.arms.di.module.GlobalConfigModule
-import com.common.arms.integration.ConfigModule
+import com.common.core.base.delegate.AppLifecycles
+import com.common.core.di.module.GlobalConfigModule
+import com.common.core.integration.ConfigModule
 
 class LoginConfiguration : ConfigModule {
     override fun applyOptions(context: Context, builder: GlobalConfigModule.Builder) {

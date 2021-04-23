@@ -36,10 +36,10 @@
 
 ################common###############
 
--keep public class * implements com.common.arms.integration.ConfigModule
+-keep public class * implements com.common.core.integration.ConfigModule
 
  #实体类不参与混淆
--keep class com.common.arms.widget.** { *; } #自定义控件不参与混淆
+-keep class com.common.core.widget.** { *; } #自定义控件不参与混淆
 -keep class * implements android.os.Parcelable {
   public static final android.os.Parcelable$Creator *;
 }

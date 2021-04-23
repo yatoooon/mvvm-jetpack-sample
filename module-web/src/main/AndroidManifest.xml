@@ -13,7 +13,12 @@
             android:name=".ui.activity.TabPageActivity"
             android:configChanges="orientation|screenSize"
             android:hardwareAccelerated="true"
-            android:windowSoftInputMode="stateHidden|adjustResize" />
+            android:windowSoftInputMode="stateHidden|adjustResize">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
 
         <activity
             android:name=".view.agentweb.ActionActivity"

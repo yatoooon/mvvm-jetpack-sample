@@ -15,7 +15,7 @@ class ActivityLifecycleCallbacksImpl : ActivityLifecycleCallbacks {
     }
 
     override fun onActivityStarted(activity: Activity) {
-        if (activity is com.common.arms.base.BaseActivity<*>) {
+        if (activity is com.common.core.base.BaseActivity<*>) {
             when (activity) {
                 is BindImmersionBar -> {
                     ImmersionBar.with(activity)

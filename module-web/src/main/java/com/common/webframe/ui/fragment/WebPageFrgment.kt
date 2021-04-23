@@ -6,7 +6,7 @@ import android.view.Gravity
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import android.widget.LinearLayout
-import com.common.arms.base.BaseFragment
+import com.common.core.base.BaseFragment
 import com.common.res.api.Api.H5_DOMAIN
 import com.common.res.entity.SendEventEntity
 import com.common.res.event.WEBFRAME_EVENT

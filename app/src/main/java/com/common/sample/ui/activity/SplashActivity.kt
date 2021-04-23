@@ -1,7 +1,7 @@
 package com.common.sample.ui.activity
 
 import android.os.Bundle
-import com.common.arms.base.BaseActivity
+import com.common.core.base.BaseActivity
 import com.common.res.immersionbar.BindFullScreen
 import com.common.res.router.RouterHub
 import com.common.res.router.routerNavigation

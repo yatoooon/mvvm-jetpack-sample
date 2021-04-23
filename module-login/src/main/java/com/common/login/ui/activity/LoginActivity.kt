@@ -3,8 +3,8 @@ package com.common.login.ui.activity
 import android.os.Bundle
 import com.alibaba.android.arouter.facade.annotation.Route
 import com.coder.zzq.smartshow.dialog.LoadingDialog
-import com.common.arms.base.mvvm.BaseVMActivity
-import com.common.arms.utils.dismissLoadingDialog
+import com.common.core.base.mvvm.BaseVMActivity
+import com.common.core.utils.dismissLoadingDialog
 import com.common.login.databinding.ActivityLoginBinding
 import com.common.login.vm.LoginViewModel
 import com.common.res.router.RouterHub

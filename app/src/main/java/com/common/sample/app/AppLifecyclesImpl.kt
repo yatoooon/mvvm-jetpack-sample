@@ -2,7 +2,7 @@ package com.common.sample.app
 
 import android.app.Application
 import android.content.Context
-import com.common.arms.base.delegate.AppLifecycles
+import com.common.core.base.delegate.AppLifecycles
 import com.umeng.analytics.MobclickAgent
 import com.umeng.commonsdk.UMConfigure
 

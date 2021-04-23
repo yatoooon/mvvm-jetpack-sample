@@ -6,14 +6,12 @@ import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.widget.PopupMenu
 import com.coder.zzq.smartshow.dialog.EnsureDialog
-import com.common.arms.utils.dismissLoadingDialog
-import com.common.arms.utils.hideLoadingState
-import com.common.arms.utils.showLoadingDialog
+import com.common.core.utils.dismissLoadingDialog
+import com.common.core.utils.showLoadingDialog
 import com.common.res.utils.GsonUtil
 import com.common.webframe.entity.DialogEntity
 import com.common.webframe.jsapi.JsApi
 import com.common.webframe.ui.activity.WebPageActivity
-import com.luck.picture.lib.entity.LocalMedia
 
 object JsApiHelper {
 

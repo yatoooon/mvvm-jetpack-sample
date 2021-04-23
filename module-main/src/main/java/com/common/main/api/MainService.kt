@@ -1,6 +1,6 @@
 package com.common.main.api
 
-import com.common.arms.base.net.BaseResponse
+import com.common.core.base.net.BaseResponse
 import com.common.main.entity.ArticleEntity
 import com.common.res.entity.ListEntity
 import retrofit2.http.GET

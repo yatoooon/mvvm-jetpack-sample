@@ -7,11 +7,9 @@ import android.content.Context
 import android.content.Intent
 import android.os.Handler
 import android.text.TextUtils
-import com.common.arms.base.delegate.AppLifecycles
-import com.common.arms.integration.AppManager
+import com.common.core.base.delegate.AppLifecycles
+import com.common.core.integration.AppManager
 import com.common.webframe.service.PreLoadX5Service
-import org.koin.core.context.loadKoinModules
-import org.koin.dsl.module
 
 
 class WebLifecyclesImpl : AppLifecycles {

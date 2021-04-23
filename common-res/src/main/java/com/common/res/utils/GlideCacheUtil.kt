@@ -4,7 +4,7 @@ import android.content.Context
 import android.os.Looper
 import android.text.TextUtils
 import com.bumptech.glide.Glide
-import com.common.arms.utils.ArmsUtil
+import com.common.core.utils.ArmsUtil
 import java.io.File
 import java.math.BigDecimal
 

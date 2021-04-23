@@ -5,7 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
-import com.common.arms.base.BaseActivity
+import com.common.core.base.BaseActivity
 import com.common.res.entity.SendEventEntity
 import com.common.res.event.WEBFRAME_EVENT
 import com.common.res.utils.bindViewClickListener

@@ -5,9 +5,9 @@ import android.view.View
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.alibaba.android.arouter.facade.annotation.Route
-import com.common.arms.base.mvvm.BaseVMActivity
-import com.common.arms.base.state.StateType
-import com.common.arms.callback.LoadingCallBack
+import com.common.core.base.mvvm.BaseVMActivity
+import com.common.core.base.state.StateType
+import com.common.core.callback.LoadingCallBack
 import com.common.main.databinding.ActivityMainBinding
 import com.common.main.ui.adapter.ArticleAdapter
 import com.common.main.vm.MainViewModel

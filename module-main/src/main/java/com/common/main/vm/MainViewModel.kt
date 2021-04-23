@@ -2,8 +2,8 @@ package com.common.main.vm
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.common.arms.base.mvvm.BaseViewModel
-import com.common.arms.base.net.BaseResponse
+import com.common.core.base.mvvm.BaseViewModel
+import com.common.core.base.net.BaseResponse
 import com.common.main.entity.ArticleEntity
 import com.common.main.repository.MainRepository
 import com.common.res.entity.ListEntity

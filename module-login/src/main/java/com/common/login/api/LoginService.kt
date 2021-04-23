@@ -1,8 +1,7 @@
 package com.common.login.api
 
-import com.common.arms.base.net.BaseResponse
+import com.common.core.base.net.BaseResponse
 import com.common.login.entity.LoginEntity
-import io.reactivex.Observable
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded
 import retrofit2.http.POST

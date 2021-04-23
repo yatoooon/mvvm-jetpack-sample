@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.FragmentActivity
 import cn.bingoogolapple.qrcode.core.QRCodeView
-import com.common.arms.base.BaseActivity
+import com.common.core.base.BaseActivity
 import com.common.res.databinding.ResActivityQrcodeBinding
 import com.common.res.immersionbar.BindFullScreen
 

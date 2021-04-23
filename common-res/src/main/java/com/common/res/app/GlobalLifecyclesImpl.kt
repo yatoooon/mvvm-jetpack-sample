@@ -4,11 +4,11 @@ import android.app.Application
 import android.content.Context
 import com.alibaba.android.arouter.launcher.ARouter
 import com.coder.zzq.smartshow.core.SmartShow
-import com.common.arms.base.delegate.AppLifecycles
-import com.common.arms.callback.EmptyCallBack
-import com.common.arms.callback.ErrorCallBack
-import com.common.arms.callback.LoadingCallBack
-import com.common.res.config.AppConfig
+import com.common.core.base.delegate.AppLifecycles
+import com.common.core.callback.EmptyCallBack
+import com.common.core.callback.ErrorCallBack
+import com.common.core.callback.LoadingCallBack
+import com.common.res.BuildConfig
 import com.common.res.page.PageDataHelper
 import com.common.res.update.OKHttpUpdateHttpService
 import com.common.res.view.RefreshLottieHeader
@@ -35,6 +35,10 @@ class GlobalLifecyclesImpl : AppLifecycles {
         //初始化MMKV
         MMKV.initialize(application)
         //初始化ARouter
+        if (BuildConfig.DEBUG) {           // 这两行必须写在init之前，否则这些配置在init过程中将无效
+            ARouter.openLog();     // 打印日志
+            ARouter.openDebug();   // 开启调试模式(如果在InstantRun模式下运行，必须开启调试模式！线上版本需要关闭,否则有安全风险)
+        }
         ARouter.init(application)
         //初始化Koin
         startKoin {

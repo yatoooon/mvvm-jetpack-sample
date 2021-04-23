@@ -3,13 +3,12 @@ package com.common.res.app
 import android.app.Application.ActivityLifecycleCallbacks
 import android.content.Context
 import androidx.fragment.app.FragmentManager
-import com.common.arms.base.delegate.AppLifecycles
-import com.common.arms.di.module.GlobalConfigModule
-import com.common.arms.glide.GlideImageLoaderStrategy
-import com.common.arms.integration.ConfigModule
+import com.common.core.base.delegate.AppLifecycles
+import com.common.core.di.module.GlobalConfigModule
+import com.common.core.glide.GlideImageLoaderStrategy
+import com.common.core.integration.ConfigModule
 import com.common.res.api.Api
 import com.google.gson.GsonBuilder
-import com.tencent.mmkv.MMKV
 import io.rx_cache2.internal.RxCache
 import me.jessyan.progressmanager.ProgressManager
 import me.jessyan.retrofiturlmanager.RetrofitUrlManager

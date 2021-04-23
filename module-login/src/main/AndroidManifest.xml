@@ -4,7 +4,12 @@
 
     <application>
 
-        <activity android:name=".ui.activity.LoginActivity" />
+        <activity android:name=".ui.activity.LoginActivity" >
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
 
         <meta-data
             android:name="com.common.login.app.LoginConfiguration"

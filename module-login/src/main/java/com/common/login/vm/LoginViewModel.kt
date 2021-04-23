@@ -1,9 +1,8 @@
 package com.common.login.vm
 
 import androidx.lifecycle.liveData
-import com.common.arms.base.mvvm.BaseViewModel
-import com.common.arms.utils.showLoadingState
-import com.common.login.entity.LoginEntity
+import com.common.core.base.mvvm.BaseViewModel
+import com.common.core.utils.showLoadingState
 import com.common.login.repository.LoginRepository
 import com.common.res.config.AppConfig
 

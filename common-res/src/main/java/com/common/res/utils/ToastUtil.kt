@@ -4,7 +4,7 @@ import android.app.Activity
 import android.content.Context
 import android.text.TextUtils
 import android.widget.Toast
-import com.common.arms.integration.AppManager
+import com.common.core.integration.AppManager
 import java.text.MessageFormat
 
 /**

@@ -8,7 +8,7 @@ import android.os.Bundle
 import android.provider.Settings
 import android.util.Log
 import androidx.annotation.RequiresPermission
-import com.common.arms.integration.AppManager
+import com.common.core.integration.AppManager
 import java.io.IOException
 import java.util.*
 

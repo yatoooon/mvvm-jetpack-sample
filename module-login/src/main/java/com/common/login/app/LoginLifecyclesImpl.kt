@@ -2,7 +2,7 @@ package com.common.login.app
 
 import android.app.Application
 import android.content.Context
-import com.common.arms.base.delegate.AppLifecycles
+import com.common.core.base.delegate.AppLifecycles
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.core.context.loadKoinModules
 import org.koin.dsl.module
